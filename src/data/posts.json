@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Tutorial 1",
+        "tags": ["react1", "react2"],
+        "date": "2021-02-19",
+        "isNew": true
+    },
+    {
+        "title": "HTML 2",
+        "tags": ["html1", "html2"],
+        "date": "2023-03-10",
+        "isNew": true
+    },
+    {
+        "title": "Tutorial 3",
+        "tags": ["database1", "database2", "database3"],
+        "date": "2024-05-07",
+        "isNew": false
+    }
+]
