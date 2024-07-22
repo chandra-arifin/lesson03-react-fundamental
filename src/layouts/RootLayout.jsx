@@ -36,6 +36,42 @@ function RootLayout() {
         style={{
           marginLeft: "5px",
         }}
+        to="vCard"
+      >
+        Virtual Card
+      </NavLink>
+      |
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isActive ? "active" : isPending ? "pending" : ""
+        }
+        style={{
+          marginLeft: "5px",
+        }}
+        to="steps"
+      >
+        Step
+      </NavLink>
+      |
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isActive ? "active" : isPending ? "pending" : ""
+        }
+        style={{
+          marginLeft: "5px",
+        }}
+        to="gocheck"
+      >
+        Go Check
+      </NavLink>
+      |
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isActive ? "active" : isPending ? "pending" : ""
+        }
+        style={{
+          marginLeft: "5px",
+        }}
         to="About"
       >
         About
