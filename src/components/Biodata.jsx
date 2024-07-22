@@ -1,7 +1,9 @@
+import styles from "../styles/vcard.module.css";
+
 function Biodata() {
   return (
     <>
-      <div className="desc">
+      <div className={styles.desc}>
         <p>nama saya adalah apin.</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto

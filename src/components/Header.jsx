@@ -1,3 +1,5 @@
+import styles from "../styles/vcard.module.css";
+
 import SocialButton from "./SocialButton";
 
 function Header() {
@@ -30,12 +32,12 @@ function Header() {
 
   return (
     <>
-      <div className="social-buttons">
+      <div className={styles["social-buttons"]}>
         {socialLeft.map((item, index) => (
           <SocialButton icon={item.icon} key={index} link={item.href} />
         ))}
       </div>
-      <div className="social-buttons right">
+      <div className={`${styles["social-buttons"]} ${styles.right}`}>
         {socialRight.map((item, index) => (
           <SocialButton icon={item.icon} link={item.href} />
         ))}

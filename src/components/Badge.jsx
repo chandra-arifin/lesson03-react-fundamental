@@ -1,7 +1,9 @@
+import styles from "../styles/vcard.module.css";
+
 function Badge({ text }) {
   return (
     <button>
-      <div className="height">{text}</div>
+      <div className={styles.height}>{text}</div>
     </button>
   );
 }
