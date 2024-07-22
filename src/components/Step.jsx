@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/step.css";
+import styles from "../styles/step.module.css";
 
 function Step() {
   const stepItem = ["Dream", "Believe", "Come True"];
@@ -16,21 +16,24 @@ function Step() {
 
   return (
     <>
-      <button className="close" onClick={() => setIsOpen((isOpen) => !isOpen)}>
+      <button
+        className={styles.close}
+        onClick={() => setIsOpen((isOpen) => !isOpen)}
+      >
         &times;
       </button>
       {isOpen && (
-        <div className="steps">
-          <div className="numbers">
-            <div className={step >= 1 ? "active" : ""}>1</div>
-            <div className={step >= 2 ? "active" : ""}>2</div>
-            <div className={step >= 3 ? "active" : ""}>3</div>
+        <div className={styles.steps}>
+          <div className={styles.numbers}>
+            <div className={step >= 1 ? styles.active : ""}>1</div>
+            <div className={step >= 2 ? styles.active : ""}>2</div>
+            <div className={step >= 3 ? styles.active : ""}>3</div>
           </div>
-          <p className="message">
+          <p className={styles.message}>
             Step {step}: {stepItem[step - 1]}
           </p>
 
-          <div className="buttons">
+          <div className={styles.buttons}>
             <button onClick={handlePrev}>Prev</button>
             <button onClick={handleNext}>Next</button>
           </div>

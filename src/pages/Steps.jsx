@@ -1,4 +1,3 @@
-import "../styles/vcard.css";
 import Step from "../components/Step";
 
 function Steps() {
