@@ -4,6 +4,10 @@
   padding: 2rem;
 }
 
+input {
+  all: unset;
+}
+
 .active {
   background-color: red;
   color: white;
