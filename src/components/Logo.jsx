@@ -1,7 +1,9 @@
+import styles from "../styles/gocheck.module.css";
+
 function Logo() {
   return (
     <>
-      <span className="logo">📝 GoCheck ✅</span>
+      <span className={styles.logo}>📝 GoCheck ✅</span>
     </>
   );
 }

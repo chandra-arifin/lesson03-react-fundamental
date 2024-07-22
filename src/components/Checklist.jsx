@@ -1,4 +1,4 @@
-import { useState } from "react";
+import styles from "../styles/gocheck.module.css";
 import ItemList from "./ItemList";
 
 function Checklist({
@@ -13,7 +13,7 @@ function Checklist({
 
   return (
     <>
-      <div className="list">
+      <div className={styles.list}>
         <ul>
           {items.map((item) => (
             <ItemList
@@ -24,7 +24,7 @@ function Checklist({
             />
           ))}
         </ul>
-        <div className="actions">
+        <div className={styles.actions}>
           <select value={sortBy} onChange={(e) => onSortList(e.target.value)}>
             <option value="input">Urutkan Berdasarkan Input</option>
             <option value="title">Urutkan Berdasarkan Judul</option>

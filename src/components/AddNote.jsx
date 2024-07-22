@@ -1,3 +1,4 @@
+import styles from "../styles/gocheck.module.css";
 import { useState } from "react";
 
 function AddNote({ onAddItem }) {
@@ -23,7 +24,7 @@ function AddNote({ onAddItem }) {
 
   return (
     <>
-      <form className="add-form" onSubmit={handleSubmit}>
+      <form className={styles["add-form"]} onSubmit={handleSubmit}>
         <h3>Add Note</h3>
         <input
           type="text"

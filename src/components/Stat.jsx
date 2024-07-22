@@ -1,3 +1,5 @@
+import styles from "../styles/gocheck.module.css";
+
 function Stat({ items }) {
   if (items.length === 0) {
   }
@@ -16,7 +18,7 @@ function Stat({ items }) {
 
   return (
     <>
-      <footer className="stats">
+      <footer className={styles.stats}>
         <span>{msg}</span>
       </footer>
     </>

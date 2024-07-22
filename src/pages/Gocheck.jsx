@@ -1,4 +1,4 @@
-import "../styles/gocheck.css";
+import styles from "../styles/gocheck.module.css";
 import Logo from "../components/Logo";
 import Checklist from "../components/Checklist";
 import Stat from "../components/Stat";
@@ -88,7 +88,7 @@ function Gocheck() {
 
   return (
     <>
-      <div className="app">
+      <div className={styles.app}>
         <Logo />
         <AddNote onAddItem={handleAddItem} />
         <Checklist
