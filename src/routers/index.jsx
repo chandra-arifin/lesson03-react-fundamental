@@ -10,6 +10,7 @@ import VCard from "../pages/VCard";
 import Steps from "../components/Step";
 import Gocheck from "../pages/Gocheck";
 import AccordionPage from "../pages/AccordionPage";
+import SplitBillsPage from "../pages/SplitBillsPage";
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path: "/gocheck",
         element: <Gocheck />,
+      },
+      {
+        path: "/splitbills",
+        element: <SplitBillsPage />,
       },
       {
         path: "/accordion",

@@ -1,4 +1,3 @@
-import Styles from "../styles/Accordion.module.css";
 import Accordion from "../components/Accordion";
 
 function AccordionPage() {

@@ -83,6 +83,18 @@ function RootLayout() {
         style={{
           marginLeft: "5px",
         }}
+        to="splitbills"
+      >
+        Split Bills
+      </NavLink>
+      |
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isActive ? "active" : isPending ? "pending" : ""
+        }
+        style={{
+          marginLeft: "5px",
+        }}
         to="About"
       >
         About

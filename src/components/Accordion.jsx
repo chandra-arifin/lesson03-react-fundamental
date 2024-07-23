@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Styles from "../styles/Accordion.module.css";
+import Styles from "../styles/accordion.module.css";
 import AccordionItem from "./AccordionItem";
 
 function Accordion({ data }) {
