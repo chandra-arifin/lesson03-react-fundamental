@@ -71,6 +71,18 @@ function RootLayout() {
         style={{
           marginLeft: "5px",
         }}
+        to="accordion"
+      >
+        FAQ
+      </NavLink>
+      |
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isActive ? "active" : isPending ? "pending" : ""
+        }
+        style={{
+          marginLeft: "5px",
+        }}
         to="About"
       >
         About

@@ -1,9 +1,6 @@
 import styles from "../styles/gocheck.module.css";
 
 function Stat({ items }) {
-  if (items.length === 0) {
-  }
-
   const totalItem = items.length;
   const doneItem = items.filter((item) => item.done).length;
 
