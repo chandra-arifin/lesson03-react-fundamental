@@ -1,7 +1,6 @@
 .containerStyle {
   display: flex;
-  /* flex-direction: row; */
-  /* align-items: "center"; */
+  align-items: center;
   gap: "16px";
 }
 
@@ -11,10 +10,8 @@
 }
 
 .starStyle {
-  display: flex;
-
-  width: "48px";
-  /* height: "48px"; */
-  /* display: block; */
-  /* cursor: pointer;*/
+  width: 48px;
+  height: 48px;
+  display: block;
+  cursor: pointer;
 }

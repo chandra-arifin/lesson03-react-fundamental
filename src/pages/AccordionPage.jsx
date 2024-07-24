@@ -1,4 +1,5 @@
 import Accordion from "../components/Accordion";
+import StarRating from "../components/StarRating";
 
 function AccordionPage() {
   const tes = "ttt";

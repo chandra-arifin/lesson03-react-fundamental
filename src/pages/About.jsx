@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <div> ini halaman About</div>
-      <StarRating max={5} />
+      <StarRating size={48} />
     </>
   );
 }
